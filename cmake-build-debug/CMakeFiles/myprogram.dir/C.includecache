@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/francisco/Documentos/OOP_With_C/controller.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+model/author.c
+/home/francisco/Documentos/OOP_With_C/model/author.c
+
+/home/francisco/Documentos/OOP_With_C/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+controller.c
+/home/francisco/Documentos/OOP_With_C/controller.c
+
+/home/francisco/Documentos/OOP_With_C/model/author.c
+stdlib.h
+-
+book.c
+/home/francisco/Documentos/OOP_With_C/model/book.c
+
+/home/francisco/Documentos/OOP_With_C/model/book.c
+stdlib.h
+-
+chapter.c
+/home/francisco/Documentos/OOP_With_C/model/chapter.c
+
+/home/francisco/Documentos/OOP_With_C/model/chapter.c
+stdlib.h
+-
+
